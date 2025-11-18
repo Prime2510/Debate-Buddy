@@ -1,6 +1,10 @@
 #  Debate Buddy - AI Argument Challenger
 
-**Built for Student Hackpad 2025**
+[![Project](https://img.shields.io/badge/Project-Debate%20Buddy-blue.svg)](https://github.com/yourusername/debate-buddy)
+[![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-~1000-brightgreen.svg)]()
+[![Files](https://img.shields.io/badge/Files-6-orange.svg)]()
+[![Dependencies](https://img.shields.io/badge/Dependencies-0-success.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An AI-powered tool that strengthens critical thinking by challenging students' arguments with counter-arguments, identifying logical fallacies, and providing actionable feedback.
 
@@ -21,15 +25,15 @@ An AI-powered tool that strengthens critical thinking by challenging students' a
 
 ### Step 1: Download Files
 Create a folder called `debate-buddy` with this structure:
-debate-buddy/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   ├── config.js
-│   ├── api.js
-│   └── app.js
-└── README.md
+
+
+| File | Purpose | Lines |
+|------|---------|-------|
+| `index.html` | Application structure | ~150 |
+| `css/styles.css` | Styling & responsive design | ~400 |
+| `js/config.js` | Configuration | ~20 |
+| `js/api.js` | Mock AI responses | ~200 |
+| `js/app.js` | UI logic & interactions | ~230 |
 
 ### Step 2: Open in Browser
 Simply open `index.html` in your web browser!
@@ -219,3 +223,4 @@ MIT License - Free to use, modify, and learn from!
 
 
 *"The best way to learn critical thinking is to have your ideas challenged."*
+

@@ -101,7 +101,7 @@ async function handleAnalyze() {
         
     } catch (error) {
         console.error('Error:', error);
-        alert('Something went wrong! Please try again.\n\n' + error.message);
+        alert('Error: Something went wrong! Please try again.\n\n' + error.message);
         loadingState.classList.add('hidden');
     } finally {
         analyzeBtn.disabled = false;
@@ -138,10 +138,10 @@ function displayResults(result) {
 
 function displayScores(scores, overallScore) {
     const scoreCategories = [
-        { key: 'clarity', label: 'Clarity', icon: '' },
-        { key: 'logic', label: 'Logic', icon: '' },
-        { key: 'evidence', label: 'Evidence', icon: '' },
-        { key: 'persuasiveness', label: 'Persuasiveness', icon: '' }
+        { key: 'clarity', label: 'Clarity', icon: '◆' },
+        { key: 'logic', label: 'Logic', icon: '●' },
+        { key: 'evidence', label: 'Evidence', icon: '■' },
+        { key: 'persuasiveness', label: 'Persuasiveness', icon: '▲' }
     ];
 
     const scoreHTML = `

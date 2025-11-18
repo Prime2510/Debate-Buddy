@@ -1,3 +1,36 @@
+#  Debate Buddy - AI Argument Challenger
+
+**Built for Student Hackpad 2025**
+
+An AI-powered tool that strengthens critical thinking by challenging students' arguments with counter-arguments, identifying logical fallacies, and providing actionable feedback.
+
+---
+
+##  Features
+
+- ** Counter-Arguments**: AI generates the strongest possible counter-argument to your position
+- ** Fallacy Detection**: Identifies logical fallacies in your reasoning
+- ** Improvement Tips**: Actionable advice to strengthen your argument
+- ** Scoring System**: Comprehensive analysis across 4 dimensions (Clarity, Logic, Evidence, Persuasiveness)
+- ** Beautiful UI**: Modern, responsive design that works on all devices
+- ** Fast Responses**: Optimized mock mode for perfect demos
+
+---
+
+##  Quick Start
+
+### Step 1: Download Files
+Create a folder called `debate-buddy` with this structure:
+debate-buddy/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   ├── config.js
+│   ├── api.js
+│   └── app.js
+└── README.md
+
 ### Step 2: Open in Browser
 Simply open `index.html` in your web browser!
 
@@ -183,5 +216,6 @@ MIT License - Free to use, modify, and learn from!
 ---
 
 **Made to help students become better debaters, one argument at a time!**
+
 
 *"The best way to learn critical thinking is to have your ideas challenged."*
